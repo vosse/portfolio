@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Typed from 'typed.js'
+import { Link } from 'react-router-dom'
 
 
 export const About = () => {
@@ -14,29 +15,45 @@ export const About = () => {
             backSpeed: 60,
             showCursor: true,
             cursorChar: '|',
+            loop: true
         }
         
-        let typed = new Typed('#typed-text', options)
+        let typed = new Typed('#abt-typed-text', options)
     }, [])
 
 
 
     return (
-        <div className="container">
-            <div className="aboutme-text">
-                Hi, I'm self-taught web developer based in Serbia.
-                If I'm not learning new flavor of the month JS framework then I'm probably tinkering with React or doing leetcode.
-            </div>
-            <div className="tech-container">
-                <div className="tech-title">Here is what i primarily use:</div>
-                <div className="tech-stack">
-                    Javascript (ES<span id="typed-text"></span>)
-                    React
-                    Node.js
-                    HTML
-                    CSS
+        <div className="aboutme-wrapper">
+            <div className="abt-container">
+                <div className="aboutme-container">
+                    <div className="aboutme-title">
+                        About me
+                    </div>
+                    <div className="aboutme-text">
+                        Hi, I'm self-taught web developer based in Serbia.
+                        If I'm not learning new flavor of the month JS framework then I'm probably tinkering with React or doing leetcode.
+                    </div>
+                    <div className="tech-wrapper">
+                        <div className="tech-container">
+                            <div className="tech-title">Here is what i primarily use:</div>
+                            <div className="tech-stack">
+                                <ul>
+                                <li className="tech-item"><span className="white-item">JavaScript ( <span className="grey">ES<span id="abt-typed-text"></span></span>)</span></li>
+                                <li className="tech-item"><span className="white-item">React</span></li>
+                                <li className="tech-item"><span className="white-item">Node.js</span></li>
+                                <li className="tech-item"><span className="white-item">HTML</span></li>
+                                <li className="tech-item"><span className="white-item">CSS</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="btn-pos-wrapper">
+                            <Link className='contact-btn' to='/contact'>contact</Link>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     )
 }

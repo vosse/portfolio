@@ -15,10 +15,21 @@ code {
 }
 
 
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.abt-container {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   padding-left: 1em;
   padding-right: 1em;
@@ -78,18 +89,61 @@ code {
   width: 6rem;
 }
 
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.btn-container {
+  padding-top: 3em;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.aboutme-btn {
+  color: whitesmoke;
+  font-size: 1rem;
+  border: 1px solid whitesmoke;
+  border-radius: 3px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 3rem;
+}
+
+
+
 .contact-btn {
-  color:  rgb(29, 29, 29);
-  font-size: 1.5em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: 1px solid rgb(29, 29, 29);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 6px;
-  cursor: pointer;
+  color:  rgb(22, 22, 22);
+  font-size: 1rem;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+
+.aboutme-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5rem;
+}
+
+
+.aboutme-container {
+  width: 60%;
+}
+
+
+.aboutme-title {
+  color: grey;
+  font-size: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -97,25 +151,48 @@ code {
 .tech-container {
   padding-top: 1.5em;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
-.tech-icon {
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 30px;
-  height: 30px;
+.tech-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.btn-pos-wrapper {
+  text-align: center;
 }
 
 
 .tech-container {
+  padding-top: 3rem;
+  color: whitesmoke;
+}
+
+
+.tech-item {
+  padding: 3px;
+  color: grey;
+}
+
+.white-item {
   color: whitesmoke;
 }
 
 .aboutme-text {
   color: whitesmoke;
+}
+
+#abt-typed-text {
+  color: grey;
+}
+
+.grey {
+  color: grey;
 }
 
 
@@ -131,5 +208,37 @@ code {
 
   .header-text {
     font-size: 1rem;
+  }
+
+  .aboutme-btn {
+
+    margin-right: 1.5rem;
+  }
+
+  .abt-container {
+    padding-top: 0rem;
+  }
+
+  .aboutme-wrapper {
+    padding-top: 3rem;
+  }
+
+  .aboutme-container {
+    width: 90%;
+  }
+
+  .aboutme-title {
+    font-size: 2rem;
+  }
+
+  .tech-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3rem;
+  }
+
+  .btn-pos-wrapper {
+    padding-top: 3rem;
   }
 }

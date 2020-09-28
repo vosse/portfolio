@@ -42,10 +42,12 @@ export const Landing = () => {
                 <div  className="header-text">
                 <span className="grey-text">I build stuff with</span> <span id="typed-text"></span>
                 </div>
+                <div className='btn-container'>
+                    <Link className='aboutme-btn' to='/about'>about me</Link>
+                    <Link className='contact-btn' to='/contact'>contact</Link>
+                </div>
             </div>
-            <div className="header">
-                <Link className='aboutme-btn' to='/about'>about me</Link>
-            </div>
+
         </div>
     )
 }
