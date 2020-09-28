@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 import Typed from 'typed.js'
+import { Link } from 'react-router-dom'
 
 
 
+import { About } from './About'
 
 
 
@@ -42,6 +44,7 @@ export const Landing = () => {
                 </div>
             </div>
             <div className="header">
+                <Link className='aboutme-btn' to='/about'>about me</Link>
             </div>
         </div>
     )

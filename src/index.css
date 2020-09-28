@@ -110,6 +110,15 @@ code {
 }
 
 
+.tech-container {
+  color: whitesmoke;
+}
+
+.aboutme-text {
+  color: whitesmoke;
+}
+
+
 @media screen and (max-width: 768px) {
 
   .title-text {
