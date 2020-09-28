@@ -1,13 +1,108 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  */
+  font-family: 'Epilogue', sans-serif;
+  background-color: rgb(22, 22, 22);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding-top: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-text {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(155, 155, 155);
+  padding-top: 1em;
+}
+
+.name-text {
+  font-weight: 600;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-size: 3.5em;
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-text {
+  padding-top: 2em;
+  color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+.grey-text {
+  color: rgb(153, 153, 153);
+}
+
+.header {
+  font-size: 2.3em;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.crossed-text {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.title-icon {
+  padding-left: 13px;
+  padding-bottom: 2rem;
+  height: 6rem;
+  width: 6rem;
+}
+
+.contact-btn {
+  color:  rgb(29, 29, 29);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid rgb(29, 29, 29);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.tech-container {
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-icon {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 30px;
+  height: 30px;
 }
