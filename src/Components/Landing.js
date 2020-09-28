@@ -14,7 +14,7 @@ export const Landing = () => {
     
     useEffect( () => {
         let options = {
-            strings: ['React', 'Node.js', 'JavaScript'],
+            strings: ['React', 'Node.js', 'SQL', 'JavaScript'],
             typeSpeed: 60,
             backDelay: 1500,
             smartBackspace: true,
