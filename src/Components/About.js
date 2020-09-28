@@ -43,7 +43,7 @@ export const About = () => {
                                 <li className="tech-item"><span className="white-item">React</span></li>
                                 <li className="tech-item"><span className="white-item">Node.js</span></li>
                                 <li className="tech-item"><span className="white-item">HTML</span></li>
-                                <li className="tech-item"><span className="white-item">CSS</span></li>
+                                <li className="tech-item">S<span className="white-item">CSS</span></li>
                                 </ul>
                             </div>
                         </div>
