@@ -36,7 +36,7 @@ export const About = () => {
                     </div>
                     <div className="tech-wrapper">
                         <div className="tech-container">
-                            <div className="tech-title">Here is what i primarily use:</div>
+                            <div className="tech-title">Here is what I primarily use:</div>
                             <div className="tech-stack">
                                 <ul>
                                 <li className="tech-item"><span className="white-item">JavaScript ( <span className="grey">ES<span id="abt-typed-text"></span></span>)</span></li>
