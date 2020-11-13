@@ -10,7 +10,7 @@ export const Contact = () => {
                 Get in touch
             </div>
             <div className='contact-text'>
-                Whether you have a question or want to hire me my inbox is always open.
+                Whether you have a question or want to talk inbox is open
             </div>
             <div className='resume-link'>
                 Get my resume
