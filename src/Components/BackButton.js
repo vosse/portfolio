@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom';
+import LeftArrow from '../assets/left-arrow.png'
 
 class BackButton extends Component {
 
@@ -11,7 +12,7 @@ class BackButton extends Component {
     render() {
         return (
             <button onClick={this.handleBack} className='back-btn-wrapper'>
-                <img className='back-btn' src={require("../assets/left-arrow.png")}/>
+                <img className='back-btn' src={LeftArrow}/>
             </button>
         )
     }

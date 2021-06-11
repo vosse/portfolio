@@ -2,9 +2,7 @@ import React, { useEffect } from 'react'
 import Typed from 'typed.js'
 import { Link } from 'react-router-dom'
 
-
 export const About = () => {
-
 
     useEffect( () => {
         let options = {
@@ -17,11 +15,8 @@ export const About = () => {
             cursorChar: '|',
             loop: true
         }
-        
         let typed = new Typed('#abt-typed-text', options)
     }, [])
-
-
 
     return (
         <div className="aboutme-wrapper">
@@ -31,8 +26,8 @@ export const About = () => {
                         About me
                     </div>
                     <div className="aboutme-text">
-                        Hi, I'm self-taught web developer based in Serbia.
-                        If I'm not learning new flavor of the month JS framework then I'm probably tinkering with React or doing leetcode.
+                        Hi, I'm self-taught JavaScript developer based in Serbia.
+                        If I'm not learning a new flavor of the month JS framework then I'm probably tinkering with Node.js or doing leetcode.
                     </div>
                     <div className="tech-wrapper">
                         <div className="tech-container">
@@ -40,8 +35,9 @@ export const About = () => {
                             <div className="tech-stack">
                                 <ul>
                                 <li className="tech-item"><span className="white-item">JavaScript ( <span className="grey">ES<span id="abt-typed-text"></span></span>)</span></li>
-                                <li className="tech-item"><span className="white-item">React</span></li>
                                 <li className="tech-item"><span className="white-item">Node.js</span></li>
+                                <li className="tech-item"><span className="white-item">SQL</span>/<span className="white-item">NoSQL</span></li>
+                                <li className="tech-item"><span className="white-item">React</span></li>
                                 <li className="tech-item"><span className="white-item">HTML</span></li>
                                 <li className="tech-item">S<span className="white-item">CSS</span></li>
                                 </ul>
