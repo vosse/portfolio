@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Pdf from '../assets/relja_jovicevic_cv.pdf'
+import linkedIn from '../assets/linkedin-white.png'
+import github from '../assets/github-white.png'
 
 
 export const Contact = () => {
@@ -14,14 +16,14 @@ export const Contact = () => {
             </div>
             <div className='resume-link'>
                 Get my resume
-                <a className='resume' target='_blank' href={Pdf}> here.</a>
+                <a className='resume' target='_blank' href={Pdf} rel="noreferrer"> here.</a>
             </div>
             <div className='lt-btn-container'>
                     <a href='mailto:relja.jovicevic@gmail.com'><button className='lt-btn'>let's talk</button></a>
             </div>
             <div className="links-container">
-                <a target="_blank" href='https://github.com/vosse' rel="noreferrer"><img className='link-icon' src={require('../assets/github-white.png')}/></a>
-                <a target="_blank" href='https://www.linkedin.com/in/relja-jovicevic-7a3222173/' rel="noreferrer"><img className='link-icon' src={require('../assets/linkedin-white.png')}/></a>
+                <a href='https://github.com/vosse'><img className='link-icon' src={github}/></a>
+                <a href='https://www.linkedin.com/in/relja-jovicevic-7a3222173/'><img className='link-icon' src={linkedIn}/></a>
             </div>
         </div>
     )
