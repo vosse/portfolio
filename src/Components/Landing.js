@@ -43,8 +43,8 @@ export const Landing = () => {
                 <span className="grey-text">I build stuff with</span> <span id="typed-text"></span>
                 </div>
                 <div className='btn-container'>
-                    <Link className='aboutme-btn' target="_blank" to='/about'>about me</Link>
-                    <Link className='contact-btn' target="_blank" to='/contact'>contact</Link>
+                    <Link className='aboutme-btn' to='/about'>about me</Link>
+                    <Link className='contact-btn' to='/contact'>contact</Link>
                 </div>
             </div>
 
