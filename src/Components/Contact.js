@@ -22,8 +22,8 @@ export const Contact = () => {
                     <a href='mailto:relja.jovicevic@gmail.com'><button className='lt-btn'>let's talk</button></a>
             </div>
             <div className="links-container">
-                <a href='https://github.com/vosse'><img className='link-icon' src={github}/></a>
-                <a href='https://www.linkedin.com/in/relja-jovicevic-7a3222173/'><img className='link-icon' src={linkedIn}/></a>
+                <a target='_blank' href='https://github.com/vosse'><img className='link-icon' src={github}/></a>
+                <a target='_blank' href='https://www.linkedin.com/in/relja-jovicevic-7a3222173/'><img className='link-icon' src={linkedIn}/></a>
             </div>
         </div>
     )
