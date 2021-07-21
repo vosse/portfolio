@@ -19,7 +19,7 @@ export const About = () => {
     }, [])
 
     return (
-        <div className="aboutme-wrapper">
+        <div className="contact-container">
             <div className="abt-container">
                 <div className="aboutme-container">
                     <div className="aboutme-title">
