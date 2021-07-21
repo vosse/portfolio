@@ -133,9 +133,7 @@ a {
 }
 
 
-.aboutme-container {
-  width: 60%;
-}
+
 
 
 .aboutme-title {
@@ -183,6 +181,7 @@ a {
 
 .aboutme-text {
   color: whitesmoke;
+  text-align: center;
 }
 
 #abt-typed-text {
@@ -352,7 +351,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 3rem;
+    /*padding-right: 3rem;*/
   }
 
   .btn-pos-wrapper {
