@@ -26,8 +26,9 @@ export const About = () => {
                         About me
                     </div>
                     <div className="aboutme-text">
-                        Hi, I'm self-taught JavaScript developer based in Serbia.
-                        If I'm not learning a new flavor of the month JS framework then I'm probably tinkering with Node.js or doing leetcode.
+                        Hi, I'm self-taught backend developer based in Serbia.
+                        If I'm not tinkering with JS then I'm probably reading CS papers or doing leetcode.
+                        <br></br><br></br>Next goal: Java
                     </div>
                     <div className="tech-wrapper">
                         <div className="tech-container">

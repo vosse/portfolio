@@ -21,7 +21,6 @@ body {
 }
 
 .abt-container {
-  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -124,9 +123,13 @@ a {
 
 
 .aboutme-wrapper {
+  margin: 0 auto;
+  padding-top: 5rem;
   display: flex;
-  flex-direction: row;
-  padding-top: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
 }
 
 
@@ -340,17 +343,6 @@ a {
     margin-right: 1.5rem;
   }
 
-  .abt-container {
-    padding-top: 0rem;
-  }
-
-  .aboutme-wrapper {
-    padding-top: 3rem;
-  }
-
-  .aboutme-container {
-    width: 90%;
-  }
 
   .aboutme-title {
     font-size: 2rem;
