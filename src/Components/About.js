@@ -26,9 +26,8 @@ export const About = () => {
                         About me
                     </div>
                     <div className="aboutme-text">
-                        Hi, backend developer based in Serbia who also likes to act as a DevOps.
-                        If I'm not tinkering with JS then I'm probably creating unncessary AWS bills or doing leetcode.
-                        <br></br><br></br>Next goal: AWS SAA C03
+                        software engineer that delivers.
+                        in free time I'm creating unncessary AWS bills or doing leetcode.
                     </div>
                     <div className="tech-wrapper">
                         <div className="tech-container">
@@ -41,8 +40,8 @@ export const About = () => {
                                 <li className="tech-item"><span className="white-item">Python</span></li>
                                 <li className="tech-item"><span className="white-item">AWS</span></li>
                                 <li className="tech-item"><span className="white-item">React</span></li>
-                                <li className="tech-item"><span className="white-item">HTML</span></li>
-                                <li className="tech-item">S<span className="white-item">CSS</span></li>
+                                <li className="tech-item"><span className="white-item">CDK</span></li>
+                                <li className="tech-item">S<span className="white-item">Next.js</span></li>
                                 </ul>
                             </div>
                         </div>
