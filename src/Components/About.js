@@ -26,9 +26,11 @@ export const About = () => {
                         About me
                     </div>
                     <div className="aboutme-text">
+                        {`
                         software engineer that delivers.
-                        {'\n'}
+
                         in free time I'm creating unncessary AWS bills or doing leetcode.
+                        `}
                     </div>
                     <div className="tech-wrapper">
                         <div className="tech-container">
