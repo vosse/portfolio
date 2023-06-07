@@ -27,6 +27,7 @@ export const About = () => {
                     </div>
                     <div className="aboutme-text">
                         software engineer that delivers.
+                        {'\n'}
                         in free time I'm creating unncessary AWS bills or doing leetcode.
                     </div>
                     <div className="tech-wrapper">
@@ -41,7 +42,7 @@ export const About = () => {
                                 <li className="tech-item"><span className="white-item">AWS</span></li>
                                 <li className="tech-item"><span className="white-item">React</span></li>
                                 <li className="tech-item"><span className="white-item">CDK</span></li>
-                                <li className="tech-item">S<span className="white-item">Next.js</span></li>
+                                <li className="tech-item"><span className="white-item">Next.js</span></li>
                                 </ul>
                             </div>
                         </div>
