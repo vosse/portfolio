@@ -4,12 +4,12 @@ export const Hbd = () => {
     return (
         <div className="contact-container">
             <div className="abt-container">
-                <div className="aboutme-container">
+                <div className="centered">
                     <div className="aboutme-title">
-                        Happy Birthday, Tatjana!
+                        Srecna slava, Tatjana!
                     </div>
                     <div className="centered">
-                        <iframe src="https://giphy.com/embed/1fkd8BKBx5te37EAuA" width="318" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/justin-80s-happy-birthday-computers-1fkd8BKBx5te37EAuA"></a></p>
+                        <img style={{ display: 'block', margin: '0 auto' }} src="https://spc-mb.net/wp-content/uploads/2014/01/sveti-jovan-krstitelj.jpg" width="318" height="480" frameBorder="0"></img><p></p>
                     </div>
                 </div>
             </div>
