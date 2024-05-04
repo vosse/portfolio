@@ -18,7 +18,6 @@ export const App = () => {
                 <Route exact path='/' component={ Landing } />
                 <Route exact path='/about' component={ About } />
                 <Route exact path='/contact' component={ Contact } />
-                <Route exact path='/srecna-slava' component={ Hbd } />
                 <Route render={() => <Landing /> } />
             </Switch>
         </BrowserRouter>
