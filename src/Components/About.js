@@ -27,9 +27,9 @@ export const About = () => {
                     </div>
                     <div className="aboutme-text">
                         {`
-                        software engineer that delivers.
+                        software engineer that understands business and product.
 
-                        in free time I'm creating unncessary AWS bills or doing leetcode.
+                        in my free time, I'm creating unncessary AWS bills or doing leetcode.
                         `}
                     </div>
                     <div className="tech-wrapper">
@@ -37,14 +37,14 @@ export const About = () => {
                             <div className="tech-title">Here is what I primarily use:</div>
                             <div className="tech-stack">
                                 <ul>
-                                <li className="tech-item"><span className="white-item">JavaScript ( <span className="grey">ES<span id="abt-typed-text"></span></span>)</span></li>
+                                <li className="tech-item"><span className="white-item">Typescript</span>/<span className="white-item">JavaScript ( <span className="grey">ES<span id="abt-typed-text"></span></span>)</span></li>
                                 <li className="tech-item"><span className="white-item">Node.js</span></li>
                                 <li className="tech-item"><span className="white-item">SQL</span>/<span className="white-item">NoSQL</span></li>
                                 <li className="tech-item"><span className="white-item">Python</span></li>
                                 <li className="tech-item"><span className="white-item">AWS</span></li>
                                 <li className="tech-item"><span className="white-item">React</span></li>
-                                <li className="tech-item"><span className="white-item">CDK</span></li>
-                                <li className="tech-item"><span className="white-item">Next.js</span></li>
+                                <li className="tech-item"><span className="white-item">Cloudformation</span>/<span className="white-item">CDK</span></li>
+                                <li className="tech-item"><span className="white-item">Nest.js</span></li>
                                 </ul>
                             </div>
                         </div>
