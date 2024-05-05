@@ -1,10 +1,9 @@
 import React from 'react';
-import  { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import  { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { Landing } from './Components/Landing'
 import { About } from './Components/About'
 import { Contact } from './Components/Contact'
-import { Hbd } from './Components/Hbd'
 import BackButton from './Components/BackButton'
 
 export const App = () => {
