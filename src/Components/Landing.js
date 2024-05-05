@@ -2,18 +2,16 @@ import React, { useEffect } from 'react'
 import Typed from 'typed.js'
 import { Link } from 'react-router-dom'
 
-import { About } from './About'
-
 export const Landing = () => {
 
     useEffect( () => {
         let options = {
-            strings: ['Node.js', 'Python', 'SQL', 'JavaScript'],
+            strings: ['Node.js', 'Python', 'SQL', 'TypeScript'],
             typeSpeed: 60,
             backDelay: 1500,
             smartBackspace: true,
             backSpeed: 60,
-            loopCount: 2,
+            loopCount: 20,
             loop: true,
             showCursor: true,
             cursorChar: '|',
@@ -27,7 +25,7 @@ export const Landing = () => {
             <div className='title'>
                 <div className="title-text">hi, my name is 
                     <div className="name-text">
-                        relja jovicevic
+                        relja
                     </div>
                 </div>
                 <div  className="header-text">

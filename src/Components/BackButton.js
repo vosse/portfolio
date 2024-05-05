@@ -12,12 +12,10 @@ class BackButton extends Component {
     render() {
         return (
             <button onClick={this.handleBack} className='back-btn-wrapper'>
-                <img className='back-btn' src={LeftArrow}/>
+                <img className='back-btn' src={LeftArrow} alt=""/>
             </button>
         )
     }
 }
 
 export default withRouter(BackButton)
-
-//<button className='back-btn' onClick={this.handleBack}>
