@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Pdf from '../assets/relja_jovicevic_cv.pdf'
 import linkedIn from '../assets/linkedin-white.png'
 import github from '../assets/github-white.png'
