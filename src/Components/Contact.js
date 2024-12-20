@@ -1,5 +1,5 @@
 import React from 'react'
-import Pdf from '../assets/relja_jovicevic_cv.pdf'
+import Pdf from '../assets/relja_jovicevic_resume.pdf'
 import linkedIn from '../assets/linkedin-white.png'
 import github from '../assets/github-white.png'
 
