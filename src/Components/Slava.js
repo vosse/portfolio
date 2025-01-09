@@ -1,4 +1,6 @@
 import React from 'react';
+import svetiStefan from '../assets/sveti-stefan.jpg';
+
 
 export const Slava = () => {
   return (
@@ -14,7 +16,7 @@ export const Slava = () => {
         <section className="image-section">
           <div className="image-container">
             <img
-              src="http://www.rtvsumadija.com/wp-content/uploads/2019/01/sveti-stefan.jpg"
+              src={svetiStefan}
               alt="Religious Celebration"
             />
             <div className="corner top-left"></div>
