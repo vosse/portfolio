@@ -1,5 +1,5 @@
 import React from 'react';
-import svetiStefan from '../assets/sveti-stefan.jpg';
+import svetiJovan from '../assets/sveti-jovan-krstitelj.jpg';
 
 
 export const Slava = () => {
@@ -16,7 +16,7 @@ export const Slava = () => {
         <section className="image-section">
           <div className="image-container">
             <img
-              src={svetiStefan}
+              src={svetiJovan}
               alt="Religious Celebration"
             />
             <div className="corner top-left"></div>
