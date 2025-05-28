@@ -1,1 +1,1 @@
-https://relja.xyz
+https://relja.dev
