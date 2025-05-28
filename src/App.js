@@ -4,7 +4,6 @@ import  { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Landing } from './Components/Landing'
 import { About } from './Components/About'
 import { Contact } from './Components/Contact'
-import { Slava } from './Components/Slava'
 import BackButton from './Components/BackButton'
 
 export const App = () => {
